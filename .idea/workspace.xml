@@ -2,21 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22686c3d-9b16-4f46-ad43-a46afb1ca87f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/JVM/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/JVM/image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/JVM/image_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/JVM/image_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/JVM/image_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/JVM/image_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/JVM/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/JVM/chapterOne/ClassLoaderTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/JVM/chapterOne/ClassLoaderTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/JVM/chapterOne/CustomClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/JVM/第一章-JVM与Java体系结构.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/JVM/第二章-类加载子系统.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/image_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/image_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/image_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/image_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/image_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/image_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/image_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/image_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/image_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/image_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/image_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/image_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/image_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/image_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/image_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/imagefive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/imagefour.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/imageone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/imagesix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/imagethree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/imagetwo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/lang/ShkStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-tech.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-tech.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/JVM/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/java/base/image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/JVM/image_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/java/base/image_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/JVM/image_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/java/base/image_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/JVM/image_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/java/base/image_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/JVM/image_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/java/base/image_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/JVM/image_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/java/base/image_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/JVM/index.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,6 +67,9 @@
         <option name="mavenHome" value="C:/software/apache-maven-3.6.3" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectId" id="1n3KuiV8QhWHXwWyAiVvBxDeJE7" />
   <component name="ProjectLevelVcsManager">
@@ -44,7 +87,63 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="C:/software/svn" />
-    <property name="settings.editor.selected.configurable" value="MarkdownNavigator.Settings.Preview" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.47614592" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\code\java-tech\java\base" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ShkStart">
+    <configuration name="ClassLoaderTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.JVM.chapterOne.ClassLoaderTest1" />
+      <module name="java-tech" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code.JVM.chapterOne.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShkStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.lang.ShkStart" />
+      <module name="java-tech" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.lang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.test" />
+      <module name="java-tech" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ShkStart" />
+        <item itemvalue="Application.ClassLoaderTest1" />
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration useDefault="false">C:\Users\zpt\AppData\Roaming\Subversion</configuration>
@@ -57,7 +156,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610613558298</updated>
-      <workItem from="1610613559919" duration="5047000" />
+      <workItem from="1610613559919" duration="17505000" />
+      <workItem from="1610702198380" duration="4393000" />
+      <workItem from="1610716358188" duration="8392000" />
+      <workItem from="1610790374513" duration="3168000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1610613616666</created>
@@ -94,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610617826466</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="测试">
+      <created>1610631784386</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610631784386</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,26 +218,58 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Notifications/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610613583849" />
+    <state x="361" y="71" key="#Project_Structure" timestamp="1610700071371">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610700071371" />
     <state x="519" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610614107059">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="519" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610614107059" />
-    <state x="372" y="4" key="CommitChangelistDialog2" timestamp="1610617825662">
+    <state x="484" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1610700200159">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="4" key="CommitChangelistDialog2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610617825662" />
-    <state x="252" y="0" key="MarkdownNavigator.PasteImageDialog" timestamp="1610631689220">
+    <state x="484" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610700200159" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610791599083">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="252" y="0" key="MarkdownNavigator.PasteImageDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610631689220" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1610617228998">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610791599083" />
+    <state x="372" y="4" key="CommitChangelistDialog2" timestamp="1610631783377">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610617228998" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610617833803">
+    <state x="372" y="4" key="CommitChangelistDialog2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610631783377" />
+    <state x="547" y="153" key="FileChooserDialogImpl" timestamp="1610678612274">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610617833803" />
+    <state x="547" y="153" key="FileChooserDialogImpl/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610678612274" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1610791930791">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610791930791" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1610791930790">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610791930790" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1610791930789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610791930789" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1610791930790">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610791930790" />
+    <state x="0" y="0" key="MarkdownNavigator.PasteImageDialog" timestamp="1610790807531">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" key="MarkdownNavigator.PasteImageDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610790807531" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1610716341098">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610716341098" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610631807621">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610631807621" />
     <state x="519" y="146" key="VcsDiffUtil.ChangesDialog" timestamp="1610613729224">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -137,5 +278,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="479" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610614060347" />
+    <state x="178" y="107" key="new project wizard" timestamp="1610678253211">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="107" key="new project wizard/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610678253211" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1610720078816">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610720078816" />
   </component>
 </project>
