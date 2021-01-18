@@ -2,49 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22686c3d-9b16-4f46-ad43-a46afb1ca87f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/JVM/chapterOne/ClassLoaderTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/JVM/chapterOne/ClassLoaderTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/JVM/chapterOne/CustomClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/JVM/第一章-JVM与Java体系结构.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/JVM/第二章-类加载子系统.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/base/image_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/base/image_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/base/image_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/base/image_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/base/image_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/base/image_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/base/image_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/base/image_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/base/image_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/base/image_19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/base/image_20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/base/image_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/base/image_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/base/image_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/base/image_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/base/imagefive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/base/imagefour.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/base/imageone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/base/imagesix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/base/imagethree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/base/imagetwo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/lang/ShkStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/JVM/chapterFour/LocalVariablesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/JVM/chapterFour/PCRegisterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/JVM/chapterFour/StackErrorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/JVM/chapterFour/StackFrameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/JVM/第三章-运行时数据区.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/JVM/第五章-虚拟机栈.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/JVM/第六章-本地方法接口.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/JVM/第四章-程序计数器.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/CPU时间片.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/LineNumberTable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/PC 寄存器.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/PC 寄存器的作用.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/PC 寄存器的保存内容即执行过程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/Slot重复利用.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/image_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/image_22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/image_23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/java执行引擎.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/slot中各个类型的长度.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/内存空间划分.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/动态链接.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/反编译文件查看局部变量.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/局部变量表this的存放位置.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/操作书栈的代码举例.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/操作书栈的形象举例.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/操作数栈执行流程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/操作数栈执行流程_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/操作数栈执行流程_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/操作数栈执行流程_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/操作数栈执行流程_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/操作数栈执行流程_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/操作数栈执行流程_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/操作数栈执行流程_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/操作数栈执行过程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/操作数栈执行过程_代码举例.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/本地方法栈.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/栈和堆.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/栈大小设置.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/栈大小设置_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/栈帧的内部结构.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/栈帧的内部结构_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/栈帧的内部结构_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/栈运行原理.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/需方法表.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-tech.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-tech.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/JVM/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/java/base/image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/JVM/image_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/java/base/image_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/JVM/image_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/java/base/image_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/JVM/image_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/java/base/image_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/JVM/image_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/java/base/image_4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/JVM/image_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/java/base/image_5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/JVM/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/JVM/第一章-JVM与Java体系结构.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/JVM/第一章-JVM与Java体系结构.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/base/image_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/java/base/JVM结构图.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +103,7 @@
       <recent name="D:\workspace\code\java-tech\java\base" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShkStart">
+  <component name="RunManager" selected="Application.StackErrorTest">
     <configuration name="ClassLoaderTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="code.JVM.chapterOne.ClassLoaderTest1" />
       <module name="java-tech" />
@@ -124,6 +130,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackErrorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.JVM.chapterFour.StackErrorTest" />
+      <module name="java-tech" />
+      <option name="VM_PARAMETERS" value="-Xss1256k" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code.JVM.chapterFour.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="code.test" />
       <module name="java-tech" />
@@ -137,8 +157,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ClassLoaderTest1" />
+      <item itemvalue="Application.ShkStart" />
+      <item itemvalue="Application.StackErrorTest" />
+      <item itemvalue="Application.test" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackErrorTest" />
         <item itemvalue="Application.ShkStart" />
         <item itemvalue="Application.ClassLoaderTest1" />
         <item itemvalue="Application.test" />
@@ -159,7 +186,8 @@
       <workItem from="1610613559919" duration="17505000" />
       <workItem from="1610702198380" duration="4393000" />
       <workItem from="1610716358188" duration="8392000" />
-      <workItem from="1610790374513" duration="3168000" />
+      <workItem from="1610790374513" duration="24726000" />
+      <workItem from="1610890231728" duration="17215000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1610613616666</created>
@@ -203,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610631784386</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="测试">
+      <created>1610796226329</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610796226329</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,18 +249,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="测试" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Notifications" timestamp="1610613583849">
+    <state x="361" y="71" key="#Notifications" timestamp="1610892329865">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Notifications/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610613583849" />
+    <state x="361" y="71" key="#Notifications/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610892329865" />
     <state x="361" y="71" key="#Project_Structure" timestamp="1610700071371">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610700071371" />
-    <state x="519" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610614107059">
+    <state x="285" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610810368892">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="519" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610614107059" />
+    <state x="285" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610810368892" />
+    <state x="519" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610796310175">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="519" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610796310175" />
     <state x="484" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1610700200159">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -234,57 +273,61 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610791599083" />
-    <state x="372" y="4" key="CommitChangelistDialog2" timestamp="1610631783377">
+    <state x="372" y="4" key="CommitChangelistDialog2" timestamp="1610796224244">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="4" key="CommitChangelistDialog2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610631783377" />
+    <state x="372" y="4" key="CommitChangelistDialog2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610796224244" />
     <state x="547" y="153" key="FileChooserDialogImpl" timestamp="1610678612274">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="547" y="153" key="FileChooserDialogImpl/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610678612274" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1610791930791">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1610849357283">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610791930791" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1610791930790">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610849357283" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1610849357283">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610791930790" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1610791930789">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610849357283" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1610849357283">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610791930789" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1610791930790">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610849357283" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1610849357283">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610791930790" />
-    <state x="0" y="0" key="MarkdownNavigator.PasteImageDialog" timestamp="1610790807531">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610849357283" />
+    <state x="496" y="184" key="MarkdownNavigator.LinkFormatDialog" timestamp="1610800243649">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="0" key="MarkdownNavigator.PasteImageDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610790807531" />
+    <state x="496" y="184" key="MarkdownNavigator.LinkFormatDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610800243649" />
+    <state x="254" y="0" key="MarkdownNavigator.PasteImageDialog" timestamp="1610970023879">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="254" y="0" key="MarkdownNavigator.PasteImageDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610970023879" />
     <state x="270" y="0" key="SettingsEditor" timestamp="1610716341098">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610716341098" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610631807621">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610796273271">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610631807621" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610796273271" />
     <state x="519" y="146" key="VcsDiffUtil.ChangesDialog" timestamp="1610613729224">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="519" y="146" key="VcsDiffUtil.ChangesDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610613729224" />
-    <state x="479" y="203" key="git4idea.merge.GitPullDialog" timestamp="1610614060347">
+    <state x="479" y="203" key="git4idea.merge.GitPullDialog" timestamp="1610970778458">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="479" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610614060347" />
+    <state x="479" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610970778458" />
     <state x="178" y="107" key="new project wizard" timestamp="1610678253211">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="107" key="new project wizard/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610678253211" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1610720078816">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1610898764385">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610720078816" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610898764385" />
   </component>
 </project>
