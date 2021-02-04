@@ -1,5 +1,9 @@
 package code;
 
+
+import java.util.Vector;
+import java.util.concurrent.ConcurrentLinkedQueue;
+
 public class test {
 
     public static void main(String[] args) {
@@ -13,5 +17,9 @@ public class test {
         //对于用户自定义类的类加载器
         ClassLoader classLoader = test.class.getClassLoader();
         System.out.println(classLoader);//sun.misc.Launcher$AppClassLoader@18b4aac2
+
+        ConcurrentLinkedQueue concurrentLinkedQueue = new ConcurrentLinkedQueue();
+
+
     }
 }
