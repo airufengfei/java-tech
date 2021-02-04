@@ -1,3 +1,5 @@
+链接：[https://airufengfei.github.io/java-tech/java/concurrency/chapter1/让线程睡眠的sleep方法](https://airufengfei.github.io/java-tech/java/concurrency/chapter1/让线程睡眠的sleep方法)
+
 Thread 类 中有 一个静态的 sleep 方法，当 一个执行中的线程调用了 Thread 的 sleep 方法后，调用线程会暂时让出指定时间的执行权，也就是在这期间不参与 CPU 的调度，但是该线程所拥有的监视器资源，比如锁还是持有不让出的 。指定的睡眠时间到了后该函数会正常返回，线程就处于就绪状态，然后参与 CPU的调度，获取到CPU资源后就可以继续运行了。如果在睡眠期间其他线程调用了该线程的 interrupt（）方法中断了该线程，则该线程会在调用sleep方法的地方抛出 InterruptedException 异常而返回。
 
 下面举个例子来说明，线程在睡眠时拥有的监视器资源不会被释放。

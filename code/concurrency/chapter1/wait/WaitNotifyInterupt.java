@@ -1,37 +1,71 @@
 package code.concurrency.chapter1.wait;
 
+import sun.misc.Unsafe;
+
+import java.time.Duration;
+import java.time.LocalTime;
+
 /**
  * interupt结束进程
  */
 public class WaitNotifyInterupt {
-    static Object obj = new Object();
+
+    static volatile int a;
 
     public static void main(String[] args) throws InterruptedException {
+
+        ThreadSafeIntegerOne threadSafeIntegerOne = new ThreadSafeIntegerOne();
 
         Thread threadA = new Thread(new Runnable() {
             @Override
             public void run() {
-                try {
-                    System.out.println("开始");
-                    synchronized (obj){
-                        System.out.println("开始执行等待");
-                        obj.wait();
-                        System.out.println("结束执行等待");
-                    }
-                    System.out.println("结束");
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
+
+                for (int i = 0;i < 10000; i ++){
+                    threadSafeIntegerOne.set();
                 }
+
+            }
+        });
+        Thread threadB = new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+                for (int i = 0;i < 10000; i ++){
+                    threadSafeIntegerOne.set();
+                }
+
             }
         });
 
+        LocalTime now = LocalTime.now();
         threadA.start();
+        threadB.start();
 
-        Thread.sleep(1000);
+        threadA.join();
+        threadB.join();
+        LocalTime now1 = LocalTime.now();
+        System.out.println(threadSafeIntegerOne.get());
+        System.out.println("use time: " + Duration.between(now1,now).getNano()/1000);
+    }
+}
+class ThreadSafeIntegerOne{
+    private int value = 0;
 
-        System.out.println("开始 interrupt threadA");
-        //终端线程
-        threadA.interrupt();
-        System.out.println("结束 interrupt threadA");
+    public synchronized int get(){
+        return value;
+    }
+    public synchronized void set(){
+        value ++;
+    }
+}
+
+class ThreadSafeIntegerTwo{
+    private volatile int value = 0;
+
+    public int get(){
+        return value;
+    }
+    public void set(){
+        value ++;
     }
 }

@@ -2,30 +2,169 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22686c3d-9b16-4f46-ad43-a46afb1ca87f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter1/wait/CallerTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter1/wait/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter1/wait/MyWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter1/wait/MyWaitTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter1/wait/RunableTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter1/wait/WaitNotifyInterupt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter1/waittimeout/InterruptedTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter1/waittimeout/InterruptedTask1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter1/waittimeout/InterruptedTask2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter1/waittimeout/JoinTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter1/waittimeout/JoinTaskTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter1/waittimeout/MyWaitTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter1/waittimeout/SleepTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter1/waittimeout/SleepTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter1/waittimeout/YieldTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/concurrency/chapter1/wait().md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/concurrency/chapter1/wait(timeout).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/concurrency/chapter1/等待线程执行终止的join方法.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/concurrency/chapter1/线程中断.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/concurrency/chapter1/让出CPU执行权的yield方法.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/concurrency/chapter1/让线程睡眠的sleep方法.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_20160810.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter1/ThreadLocal/ThreadLocalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter1/lock/DaemonThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter1/lock/DeadLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter10/CycleBarrierTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter10/CycleBarrierTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter10/JoinCountDownLatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter10/JoinCountDownLatch2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter10/SemaphoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter11/TestArrayBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter11/TestCopyEl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter11/TestMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter11/TestNoNameThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter11/TestScheduleThreadPoolExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter11/TestShutDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter11/TestSimpleDateFormate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter11/TestTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter11/ThreadPoolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter2/ReadThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter2/Test1LockSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter2/TestLockSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter2/UnsafeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter3/NonReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter3/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter3/ReentrantLockList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter3/TestDelay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter3/TestPark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter3/TestPriorityBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/concurrency/chapter6/TestPark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/ArrayBlockingQueue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/ArrayBlockingQueue_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/ArrayBlockingQueue_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/ArrayBlockingQueue_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/ArrayBlockingQueue_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/ConcurrentLinkedQueue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/ConcurrentLinkedQueue_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/ConcurrentLinkedQueue_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/CopyOnWriteArrayList.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/CopyOnWriteArrayList_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/CopyOnWriteArrayList_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/CopyOnWriteArrayList_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/CopyOnWriteArrayList_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/CopyOnWriteArrayList_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/CopyOnWriteArrayList_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/CountDownLatch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/CountDownLatch_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/CountDownLatch_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/CountDownLatch_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/CyclicBarrier.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/CyclicBarrier_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/DelayQueue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/DelayQueue_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/DelayQueue_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/JVM的实际工作过程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/Java中共享变量的可见性问题.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/LinkedBlockingQueue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/LinkedBlockingQueue_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/LockSupport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/LockSupport_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/LockSupport_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/LockSupport_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/LongAdder简单介绍.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/LongAdder简单介绍_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/ReentrantLock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/ScheduleThreadPoolExecutor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/ScheduleThreadPoolExecutor_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/ScheduleThreadPoolExecutor_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/ScheduleThreadPoolExecutor_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/ScheduleThreadPoolExecutor_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/Semaphore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/Semaphore_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/SimpleDateFormate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/SimpleDateFormate_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/SimpleDateFormate_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/SimpleDateFormate_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/SupportLock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/ThreadLocal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/ThreadLocalRandom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/ThreadLocalRandom_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/ThreadLocalRandom_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/ThreadLocal_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/ThreadPoolExecutor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/ThreadPoolExecutor_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/ThreadPoolExecutor_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/Tomcat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/Tomcat_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/Tomcat_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/Tomcat_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/Tomcat_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/Tomcat_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/Tomcat_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/Tomcat_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/java中线程安全问题.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/random类使用.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/random类使用_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/volatile关键字.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/volatile关键字_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/volatile关键字_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/伪共享.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/伪共享_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/伪共享_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/伪共享_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/伪共享_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/伪共享_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/伪共享_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/伪共享_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/使用ThreadLocal不当可能会导致内存泄露.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/使用ThreadLocal不当可能会导致内存泄露_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/使用ThreadLocal不当可能会导致内存泄露_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/使用线程池需要关闭.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/使用线程池需要关闭_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/使用线程池需要关闭_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/创建线程需要有线程名称.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/创建线程需要有线程名称_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/可重入锁.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/异步日志.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/异步日志_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/异步日志_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/异步日志_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/异步日志_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/异步日志_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/异步日志_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/异步日志_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/异步日志_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/异步日志_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/抽象同步队列AQS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/抽象同步队列AQS_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/抽象同步队列AQS_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/抽象同步队列AQS_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/抽象同步队列AQS_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/抽象同步队列AQS_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/抽象同步队列AQS_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/抽象同步队列AQS_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/抽象同步队列AQS该市.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/线程同步.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/线程死锁.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/读写锁的原理.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/base/进程和线程的关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/concurrency/chapter1/ThreadLocal.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/concurrency/chapter1/守护线程与用户线程.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/concurrency/chapter1/线程死锁.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/concurrency/chapter10/Java并发包中线程同步器原理剖析.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/concurrency/chapter11/Java并发编程实践.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/concurrency/chapter2/java指令重排序.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/concurrency/chapter2/并发编程中的其他基础.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/concurrency/chapter3/Java并发包中Thread Local Random原理剖析.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/concurrency/chapter4/Java并发包中原子操作类原理剖析.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/concurrency/chapter5/Java并发包中并发List源码剖析.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/concurrency/chapter6/Java并发包中锁原理剖析.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/concurrency/chapter7/Java并发包中并发队列原理剖析.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/concurrency/chapter8/Java并发包中线程池ThreadPoolExecutor原理探究.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/concurrency/chapter9/java并发包中ScheduledThreadPoolExecutor原理探究.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/lang/ShkStart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/concurrency/chapter1/wait/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/concurrency/chapter1/wait/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/concurrency/chapter1/wait/MyWaitTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/concurrency/chapter1/wait/MyWaitTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/concurrency/chapter1/wait/WaitNotifyInterupt.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/concurrency/chapter1/wait/WaitNotifyInterupt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-tech.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-tech.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/concurrency/chapter1/wait(timeout).md" beforeDir="false" afterPath="$PROJECT_DIR$/java/concurrency/chapter1/1.并发编程基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/concurrency/chapter1/等待线程执行终止的join方法.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/concurrency/chapter1/等待线程执行终止的join方法.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/concurrency/chapter1/线程中断.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/concurrency/chapter1/线程中断.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/concurrency/chapter1/让出CPU执行权的yield方法.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/concurrency/chapter1/让出CPU执行权的yield方法.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/concurrency/chapter1/让线程睡眠的sleep方法.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/concurrency/chapter1/让线程睡眠的sleep方法.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,11 +227,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/software/jprofiler9/bin/jprofiler.exe" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/json/json/20160810/json-20160810.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.47614592" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Markdown" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -101,7 +240,7 @@
       <recent name="D:\workspace\code\java-tech\java\base" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InterruptedTask">
+  <component name="RunManager" selected="Application.TestPark">
     <configuration name="HeapDemo2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="code.JVM.chapter8.HeapDemo2" />
       <module name="java-tech" />
@@ -110,12 +249,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterruptedTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code.concurrency.chapter1.waittimeout.InterruptedTask" />
+    <configuration name="Test1LockSupport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.concurrency.chapter2.Test1LockSupport" />
       <module name="java-tech" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code.concurrency.chapter1.waittimeout.*" />
+          <option name="PATTERN" value="code.concurrency.chapter2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +262,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterruptedTask1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code.concurrency.chapter1.waittimeout.InterruptedTask1" />
+    <configuration name="TestLockSupport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.concurrency.chapter2.TestLockSupport" />
       <module name="java-tech" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code.concurrency.chapter1.waittimeout.*" />
+          <option name="PATTERN" value="code.concurrency.chapter2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +275,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterruptedTask2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code.concurrency.chapter1.waittimeout.InterruptedTask2" />
+    <configuration name="TestPark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.concurrency.chapter6.TestPark" />
       <module name="java-tech" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code.concurrency.chapter1.waittimeout.*" />
+          <option name="PATTERN" value="code.concurrency.chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +288,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SleepTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code.concurrency.chapter1.waittimeout.SleepTest3" />
+    <configuration name="TestShutDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.concurrency.chapter11.TestShutDown" />
       <module name="java-tech" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code.concurrency.chapter1.waittimeout.*" />
+          <option name="PATTERN" value="code.concurrency.chapter11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +301,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YieldTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code.concurrency.chapter1.waittimeout.YieldTest" />
+    <configuration name="ThreadPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.concurrency.chapter11.ThreadPoolTest" />
       <module name="java-tech" />
+      <option name="VM_PARAMETERS" value="-Xms50m -Xmx50m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code.concurrency.chapter1.waittimeout.*" />
+          <option name="PATTERN" value="code.concurrency.chapter11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,19 +317,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.HeapDemo2" />
-      <item itemvalue="Application.SleepTest3" />
-      <item itemvalue="Application.YieldTest" />
-      <item itemvalue="Application.InterruptedTask" />
-      <item itemvalue="Application.InterruptedTask1" />
-      <item itemvalue="Application.InterruptedTask2" />
+      <item itemvalue="Application.TestShutDown" />
+      <item itemvalue="Application.ThreadPoolTest" />
+      <item itemvalue="Application.TestLockSupport" />
+      <item itemvalue="Application.Test1LockSupport" />
+      <item itemvalue="Application.TestPark" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InterruptedTask" />
-        <item itemvalue="Application.InterruptedTask2" />
-        <item itemvalue="Application.InterruptedTask1" />
-        <item itemvalue="Application.YieldTest" />
-        <item itemvalue="Application.SleepTest3" />
+        <item itemvalue="Application.TestPark" />
+        <item itemvalue="Application.TestLockSupport" />
+        <item itemvalue="Application.Test1LockSupport" />
+        <item itemvalue="Application.ThreadPoolTest" />
+        <item itemvalue="Application.TestShutDown" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +353,14 @@
       <workItem from="1611413896621" duration="1642000" />
       <workItem from="1611456023755" duration="3186000" />
       <workItem from="1611459574399" duration="19674000" />
-      <workItem from="1611536013766" duration="1365000" />
+      <workItem from="1611536013766" duration="12764000" />
+      <workItem from="1611588556335" duration="25872000" />
+      <workItem from="1611972127506" duration="1272000" />
+      <workItem from="1612137903807" duration="10667000" />
+      <workItem from="1612224115002" duration="14807000" />
+      <workItem from="1612311218084" duration="22099000" />
+      <workItem from="1612362330430" duration="4023000" />
+      <workItem from="1612396959268" duration="13531000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1610613616666</created>
@@ -278,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611404563846</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="测试">
+      <created>1611538029770</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611538029770</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,26 +443,27 @@
     <option name="LAST_COMMIT_MESSAGE" value="测试" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Notifications" timestamp="1610892329865">
+    <state x="361" y="71" key="#Notifications" timestamp="1612145573387">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Notifications/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610892329865" />
+    <state x="361" y="71" key="#Notifications/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612145573387" />
+    <state x="361" y="71" key="#Notifications/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1612138264244" />
     <state x="361" y="71" key="#Project_Structure" timestamp="1610700071371">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610700071371" />
-    <state x="218" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610978682226">
+    <state x="218" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612351169774">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="218" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610978682226" />
-    <state x="519" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610796310175">
+    <state x="218" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612351169774" />
+    <state x="519" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612405281616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="519" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610796310175" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1611499456454">
+    <state x="519" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612405281616" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1612236529138">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611499456454" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612236529138" />
     <state x="493" y="223" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1610978130190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -321,70 +476,70 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610791599083" />
-    <state x="372" y="4" key="CommitChangelistDialog2" timestamp="1611404561014">
+    <state x="372" y="4" key="CommitChangelistDialog2" timestamp="1611538027147">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="4" key="CommitChangelistDialog2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611404561014" />
-    <state x="547" y="153" key="FileChooserDialogImpl" timestamp="1611201405206">
+    <state x="372" y="4" key="CommitChangelistDialog2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611538027147" />
+    <state x="547" y="153" key="FileChooserDialogImpl" timestamp="1612318148774">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="547" y="153" key="FileChooserDialogImpl/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611201405206" />
-    <state width="1493" height="194" key="GridCell.Tab.0.bottom" timestamp="1611506252293">
+    <state x="547" y="153" key="FileChooserDialogImpl/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612318148774" />
+    <state width="1493" height="221" key="GridCell.Tab.0.bottom" timestamp="1612405068944">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611502845695" />
-    <state width="1493" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611506252293" />
-    <state width="1493" height="194" key="GridCell.Tab.0.center" timestamp="1611506252293">
+    <state width="1493" height="221" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612405068944" />
+    <state width="1493" height="168" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611933804312" />
+    <state width="1493" height="221" key="GridCell.Tab.0.center" timestamp="1612405068944">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="194" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611502845695" />
-    <state width="1493" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611506252293" />
-    <state width="1493" height="194" key="GridCell.Tab.0.left" timestamp="1611506252293">
+    <state width="1493" height="221" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612405068944" />
+    <state width="1493" height="168" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611933804312" />
+    <state width="1493" height="221" key="GridCell.Tab.0.left" timestamp="1612405068944">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="194" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611502845694" />
-    <state width="1493" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611506252293" />
-    <state width="1493" height="194" key="GridCell.Tab.0.right" timestamp="1611506252293">
+    <state width="1493" height="221" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612405068944" />
+    <state width="1493" height="168" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611933804311" />
+    <state width="1493" height="221" key="GridCell.Tab.0.right" timestamp="1612405068944">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="194" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611502845695" />
-    <state width="1493" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611506252293" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1611506252289">
+    <state width="1493" height="221" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612405068944" />
+    <state width="1493" height="168" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611933804312" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1611933804299">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611501196114" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611506252289" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1611506252289">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611819507647" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611933804299" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1611933804298">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611501196114" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1611506252289" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1611506252289">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611819507646" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1611933804298" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1611933804298">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611501196114" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1611506252289" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1611506252289">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611819507646" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1611933804298" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1611933804298">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611501196114" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1611506252289" />
-    <state x="496" y="184" key="MarkdownNavigator.LinkFormatDialog" timestamp="1610800243649">
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611819507646" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1611933804298" />
+    <state x="496" y="184" key="MarkdownNavigator.LinkFormatDialog" timestamp="1611538353930">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="496" y="184" key="MarkdownNavigator.LinkFormatDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610800243649" />
-    <state x="144" y="0" key="MarkdownNavigator.PasteImageDialog" timestamp="1611403338283">
+    <state x="496" y="184" key="MarkdownNavigator.LinkFormatDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611538353930" />
+    <state x="0" y="0" key="MarkdownNavigator.PasteImageDialog" timestamp="1612411326332">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="144" y="0" key="MarkdownNavigator.PasteImageDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611403338283" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1611489894061">
+    <state x="0" y="0" key="MarkdownNavigator.PasteImageDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612411326332" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1612318155497">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611489894061" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1611404574270">
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612318155497" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1611538039689">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611404574270" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611538039689" />
     <state x="519" y="146" key="VcsDiffUtil.ChangesDialog" timestamp="1610613729224">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -393,13 +548,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="479" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611538011563" />
-    <state x="178" y="107" key="new project wizard" timestamp="1610678253211">
+    <state x="178" y="107" key="new project wizard" timestamp="1612253226203">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="107" key="new project wizard/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610678253211" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1611494252319">
+    <state x="178" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1612253226203" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1612406731175">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611494252319" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612406731175" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1611910012899">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611910012899" />
   </component>
 </project>

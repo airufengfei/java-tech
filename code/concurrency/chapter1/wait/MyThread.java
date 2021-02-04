@@ -2,6 +2,8 @@ package code.concurrency.chapter1.wait;
 
 public class MyThread extends Thread {
 
+    public static int a;
+
     @Override
     public void run() {
         //打印当前线程

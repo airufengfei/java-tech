@@ -1,3 +1,5 @@
+链接：[https://airufengfei.github.io/java-tech/java/concurrency/chapter1/等待线程执行终止的join方法](https://airufengfei.github.io/java-tech/java/concurrency/chapter1/等待线程执行终止的join方法)
+
 在项目实践中经常会遇到一个场景，就是需要等待某几件事情完成后才能继续往下执行 ， 比如多个线程加载资源 ， 需要等待多个线程全部加载完毕再汇总处理。 Thread 类中有一个 join 方法就可以做这个事情，前面介绍的等待通知方法是 Obj ect 类中的方法 ， 而 join方法则 是 Thread 类直接提供的 。 j oin 是无参且返回值为 void 的方法 。 下面来看一个简单的例子。
 ```
 public class JoinTask {

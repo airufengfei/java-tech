@@ -42,7 +42,6 @@ public class MyWaitTwo {
                     synchronized (resourceA) {
                         System.out.println("threadB get resourceA lock");
                         System.out.println("threadB try get resourceB lock...");
-
                         //获取resourceB共享资源的监视器锁
                         synchronized (resourceB) {
                             System.out.println("threadB get resourceA lock");
@@ -61,7 +60,6 @@ public class MyWaitTwo {
         //启动两个线程
         threadA.start();
         threadB.start();
-
         //等待两个线程结束
         threadA.join();
         threadB.join();
