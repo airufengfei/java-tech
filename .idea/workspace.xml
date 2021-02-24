@@ -2,14 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22686c3d-9b16-4f46-ad43-a46afb1ca87f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_jexl_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160810.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/poitl/chatper4/TestTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/mysql/1.mysql逻辑架构.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/java/base/Srping的IoC容器和IoC Service Provider之间的关系_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/java/base/spring框架总体结构.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring/1.spring框架的由来.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring/2.IoC容器的基本概念.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring/3.掌管大局的IoC Service Provider.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring/4.Spring的IoC容器之BeanFactory.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-tech.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-tech.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/concurrency/chapter11/Java并发编程实践.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/concurrency/chapter11/Java并发编程实践.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,29 +79,31 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.47614592" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\code\java-tech\src\main\resources" />
+      <recent name="D:\workspace\code\java-tech\src\main\java" />
       <recent name="D:\workspace\code\java-tech\java\concurrency\chapter1" />
       <recent name="D:\workspace\code\java-tech\code\concurrency\chapter1\wait" />
       <recent name="D:\workspace\code\java-tech\java\base" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test1">
+  <component name="RunManager" selected="Application.TestTemplate">
     <configuration name="HeapDemo2" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="code.JVM.chapter8.HeapDemo2" />
+      <option name="MAIN_CLASS_NAME" value="code.concurrency.chapter11.TestMap" />
       <module name="java-tech" />
-      <option name="VM_PARAMETERS" value="-Xms10m -Xmx20m" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,13 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code.concurrency.chapter11.ThreadPoolTest" />
+    <configuration name="TestTemplate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.poitl.chatper4.TestTemplate" />
       <module name="java-tech" />
-      <option name="VM_PARAMETERS" value="-Xms50m -Xmx50m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code.concurrency.chapter11.*" />
+          <option name="PATTERN" value="code.poitl.chatper4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,19 +175,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.HeapDemo2" />
-      <item itemvalue="Application.ThreadPoolTest" />
       <item itemvalue="Application.TestLockSupport" />
       <item itemvalue="Application.Test1LockSupport" />
       <item itemvalue="Application.TestPark" />
       <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.TestTemplate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestTemplate" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.TestPark" />
         <item itemvalue="Application.TestLockSupport" />
         <item itemvalue="Application.Test1LockSupport" />
-        <item itemvalue="Application.ThreadPoolTest" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +218,12 @@
       <workItem from="1612224115002" duration="14807000" />
       <workItem from="1612311218084" duration="22099000" />
       <workItem from="1612362330430" duration="4023000" />
-      <workItem from="1612396959268" duration="20307000" />
+      <workItem from="1612396959268" duration="23233000" />
+      <workItem from="1612483878202" duration="7167000" />
+      <workItem from="1612657551773" duration="2201000" />
+      <workItem from="1612749327932" duration="3633000" />
+      <workItem from="1612757234877" duration="27000" />
+      <workItem from="1612766368477" duration="107000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1610613616666</created>
@@ -285,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612411411739</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="测试">
+      <created>1612435888672</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1612435888672</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,14 +325,14 @@
     </state>
     <state x="361" y="71" key="#Notifications/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612145573387" />
     <state x="361" y="71" key="#Notifications/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1612138264244" />
-    <state x="361" y="71" key="#Project_Structure" timestamp="1610700071371">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1612437644323">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Project_Structure/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610700071371" />
-    <state x="218" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612351169774">
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612437644323" />
+    <state x="358" y="130" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612437620327">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="218" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612351169774" />
+    <state x="358" y="130" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612437620327" />
     <state x="519" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612405281616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -317,10 +341,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612236529138" />
-    <state x="493" y="223" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1610978130190">
+    <state x="493" y="223" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1612437607181">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="493" y="223" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610978130190" />
+    <state x="493" y="223" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612437607181" />
     <state x="484" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1612435334620">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -329,33 +353,33 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610791599083" />
-    <state x="372" y="4" key="CommitChangelistDialog2" timestamp="1612411405664">
+    <state x="372" y="4" key="CommitChangelistDialog2" timestamp="1612435884864">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="4" key="CommitChangelistDialog2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612411405664" />
-    <state x="547" y="153" key="FileChooserDialogImpl" timestamp="1612435799714">
+    <state x="372" y="4" key="CommitChangelistDialog2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612435884864" />
+    <state x="547" y="153" key="FileChooserDialogImpl" timestamp="1612437126864">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="547" y="153" key="FileChooserDialogImpl/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612435799714" />
-    <state width="1493" height="221" key="GridCell.Tab.0.bottom" timestamp="1612425798576">
+    <state x="547" y="153" key="FileChooserDialogImpl/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612437126864" />
+    <state width="1493" height="221" key="GridCell.Tab.0.bottom" timestamp="1612438589234">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612425798576" />
+    <state width="1493" height="221" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612438589234" />
     <state width="1493" height="168" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611933804312" />
-    <state width="1493" height="221" key="GridCell.Tab.0.center" timestamp="1612425798576">
+    <state width="1493" height="221" key="GridCell.Tab.0.center" timestamp="1612438589233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612425798576" />
+    <state width="1493" height="221" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612438589233" />
     <state width="1493" height="168" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611933804312" />
-    <state width="1493" height="221" key="GridCell.Tab.0.left" timestamp="1612425798576">
+    <state width="1493" height="221" key="GridCell.Tab.0.left" timestamp="1612438589233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612425798576" />
+    <state width="1493" height="221" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612438589233" />
     <state width="1493" height="168" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611933804311" />
-    <state width="1493" height="221" key="GridCell.Tab.0.right" timestamp="1612425798576">
+    <state width="1493" height="221" key="GridCell.Tab.0.right" timestamp="1612438589234">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="221" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612425798576" />
+    <state width="1493" height="221" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612438589234" />
     <state width="1493" height="168" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611933804312" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1611933804299">
       <screen x="0" y="0" width="1536" height="824" />
@@ -381,18 +405,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="496" y="184" key="MarkdownNavigator.LinkFormatDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611538353930" />
-    <state x="0" y="0" key="MarkdownNavigator.PasteImageDialog" timestamp="1612411326332">
+    <state x="0" y="0" key="MarkdownNavigator.PasteImageDialog" timestamp="1612658269368">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="0" key="MarkdownNavigator.PasteImageDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612411326332" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1612435655337">
+    <state x="0" y="0" key="MarkdownNavigator.PasteImageDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612658269368" />
+    <state x="564" y="-1080" key="SettingsEditor" timestamp="1612756267858">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="564" y="-1080" key="SettingsEditor/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1612756267858" />
+    <state x="451" y="0" key="SettingsEditor/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612437677376" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1612435899090">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612435655337" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1612411426867">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612411426867" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612435899090" />
     <state x="519" y="146" key="VcsDiffUtil.ChangesDialog" timestamp="1610613729224">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -401,18 +426,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="479" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612435860411" />
-    <state x="178" y="107" key="new project wizard" timestamp="1612253226203">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="560" y="-854" key="new project wizard" timestamp="1612756412367">
+      <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state x="178" y="107" key="new project wizard/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1610678253211" />
+    <state x="560" y="-854" key="new project wizard/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1612756412367" />
+    <state x="178" y="107" key="new project wizard/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612749560586" />
     <state x="178" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1612253226203" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1612406731175">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612406731175" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1611910012899">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1612658391072">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1611910012899" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1612658391072" />
   </component>
 </project>

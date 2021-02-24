@@ -1,9 +1,8 @@
 # <center>java学习</center>
 
 ## 目录
-- [java](src/main/resources/java)
-  - [基础](java/base)
-  - 容器
+- [java](#java)
+  - [基础](#基础)
   - [JVM](#jvm)
   - 并发
 
